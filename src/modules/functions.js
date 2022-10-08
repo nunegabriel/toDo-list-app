@@ -36,7 +36,7 @@ export default class Todo {
           `;
       });
     }
-/* eslint-disable */
+
     static add = () => {
       const alert = document.querySelector('.notice');
       let arr; let
@@ -49,8 +49,8 @@ export default class Todo {
         if (doInput.value !== '') {
           const todoItem = new Todo(doInput.value);
           todoList.push(todoItem);
-          todoList.forEach((todo) => {
-            todo.index;
+          todoList.forEach((todo, i) => {
+            todo.index = i + 1;
           });
           localStorage.setItem('todoList', JSON.stringify(todoList));
           doInput.value = '';
@@ -69,8 +69,8 @@ export default class Todo {
         icon.addEventListener('click', (event) => {
           let todoList = JSON.parse(localStorage.getItem('todoList') || arr);
           todoList = todoList.filter((todo) => todo.id !== event.target.id);
-          todoList.forEach((todo) => {
-            todo.index;
+          todoList.forEach((todo, i) => {
+            todo.index = i + 1;
           });
           localStorage.setItem('todoList', JSON.stringify(todoList));
           window.location.reload();
