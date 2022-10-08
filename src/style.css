@@ -21,14 +21,13 @@ main {
   align-items: center;
 }
 
-/* stylelint-enable */
 .heading {
   display: flex;
   align-items: center;
   height: 50px;
   padding: 0 10px;
   justify-content: space-between;
-   border-bottom: 4px solid #0a0a0a;
+  border-bottom: 4px solid #0a0a0a;
 }
 
 form {
@@ -55,7 +54,6 @@ form {
   align-items: center;
 }
 
-
 ::placeholder {
   color: #494d4d;
   font-size: 20px;
@@ -67,7 +65,6 @@ form {
   transition: 1s;
 }
 
-/* stylelint-disable */
 .section {
   padding: 5px 12px;
   border: 5px solid #141414;
@@ -101,11 +98,6 @@ input {
   font-size: 16px;
 }
 
-#add-icon {
-  cursor: pointer;
-  transition: 1s;
-}
-
 a {
   text-decoration: none;
   color: #0c0c0c;
@@ -133,7 +125,6 @@ a {
   text-decoration: underline;
 }
 
-
 .notice {
   color: #b80909;
   margin: 26px 0;
@@ -148,8 +139,7 @@ li {
   justify-content: space-between;
   height: 50px;
   padding: 0 10px;
- }
-
+}
 
 input.check {
   width: 20px;
