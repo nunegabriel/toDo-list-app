@@ -5,3 +5,131 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2px;
+  border: 1px solid black;
+  width: 420px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 60px;
+}
+
+.heading {
+  display: flex;
+  padding: 10px;
+}
+
+.heading-1 {
+  display: flex;
+  padding: 10px;
+}
+
+.refresh {
+  display: flex;
+  margin: 0 5px;
+  padding: 0 90px;
+  justify-content: space-between;
+}
+
+.title {
+  display: flex;
+  font-size: 12px;
+}
+
+.main-area {
+  display: flex;
+  padding: 10px;
+  margin-right: 39px;
+}
+
+#outline {
+  outline: none;
+  display: flex;
+}
+
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  height: 20px;
+}
+
+.add {
+  display: flex;
+  margin: 0 70px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.add-1 {
+  display: flex;
+  margin: 0 70px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  flex-direction: column;
+  margin-right: 120px;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+hr {
+  width: 400px;
+}
+
+.clear {
+  padding: 15px;
+}
+
+.dash {
+  margin-left: 122px;
+  cursor: pointer;
+  height: 53px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+main {
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+
+.task {
+  display: flex;
+  margin-right: -120px;
+  border-bottom: 1px solid #423f3f;
+  width: 100px;
+}
+
+#task {
+  border-bottom: 1px solid #444242;
+  width: 400px;
+}
+
+.check {
+  margin-right: 10px;
+}
