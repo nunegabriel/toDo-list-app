@@ -24,9 +24,9 @@
 }
 
 .heading-1 {
-    display: flex;
-    padding: 10px;
-  }
+  display: flex;
+  padding: 10px;
+}
 
 .refresh {
   display: flex;
@@ -68,12 +68,12 @@ input {
 }
 
 .add-1 {
-    display: flex;
-    margin: 0 70px;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
-  }
+  display: flex;
+  margin: 0 70px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
 
 .list {
   display: flex;
