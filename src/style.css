@@ -41,6 +41,7 @@ form {
 #add-icon {
   height: 10px;
   width: 10px;
+  cursor: pointer;
   border: none;
   display: flex;
   align-items: center;
