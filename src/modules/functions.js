@@ -39,13 +39,12 @@ export default class Todo {
 
     static add = () => {
       const alert = document.querySelector('.notice');
-      let arr; let
-        todoList = [];
+      let todoList = [];
       const inputForm = document.querySelector('#form-data');
       const doInput = document.querySelector('#id-input');
       inputForm.addEventListener('submit', (event) => {
         event.preventDefault();
-        todoList = JSON.parse(localStorage.getItem('todoList') || arr);
+        todoList = JSON.parse(localStorage.getItem('todoList') || '[]');
         if (doInput.value !== '') {
           const todoItem = new Todo(doInput.value);
           todoList.push(todoItem);
