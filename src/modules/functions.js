@@ -36,7 +36,7 @@ export default class Todo {
           `;
       });
     }
-
+/* eslint-disable */
     static add = () => {
       const alert = document.querySelector('.notice');
       let arr; let
