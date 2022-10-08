@@ -1,29 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>Todo</title>
-    <script src="https://unpkg.com/lodash@4.17.20"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
   <script defer src="main.js"></script></head>
   <body>
     <main>
-  
-    <div class="container">
-      <div class="heading">
-       
-      </div><hr>
-      <div class="main-area">
-      
-      </div><hr>
-      <div class="list">
-       
+      <div class ="section">
+        <div class="heading">
+          <h1>Today's To Do's</h1>
+          <div id="title-icon">
+
+          </div>
+        </div>
+        <div id="main-area">
+          <form id="form-data">
+            <input placeholder="Add to the list..." id="id-input">
+            <button type="submit" id="add-icon" ></button>
+          </form>
+        </div>
+        <ul id="id-list"></ul>
+        <div class="bottom">
+          <a href="#" id="clear">Clear all completed.</a>
+        </div>
       </div>
-     
-      <div class="clear">
-       <a href=""> Clear all completed</a>
-      </div>
-    </div>
-  </main>
-    <script src="./src/index.js"></script>
+      <p class="notice"></p>
+
+    </main>  
   </body>
 </html>
