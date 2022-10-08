@@ -17,6 +17,9 @@ To get the content of this project locally you need to run the following command
 - IDE(code editor) like: **Vscode**, **Sublime**, etc. 
 - [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/)
 
+### Demo
+ - [Link](https://nunegabriel.github.io/toDo-list-app/dist/)
+
 ### Setup
 1. Download the **Zip** file or clone the repo with:
 ```bash
