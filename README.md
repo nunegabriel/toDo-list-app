@@ -1,6 +1,6 @@
-# Webpack-boilerplate
+# Todo LIst
 
-> This is a project was created to demonstrate how webpack can be setup in a project
+> This is a simple app to keep track of activities.
 
 ## Built With
 
